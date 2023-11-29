@@ -5,7 +5,7 @@ using namespace std;
 int main(int args, char** argv) {
 	system("clear");
 	string password = "secret", p; // khai bao password va user input
-	cout << "\033[1;31mEncrypted text with password" << endl; // App Info
+	cout << "\033[1;31mEncrypted text with password" << endl; // App Info and colored text:D
 	cout << "Close the app if you don't know what is this!" << endl; // Warn
 	system("sleep 0.55"); // sleep for n time
  	cout << "Give me the password: "; 
