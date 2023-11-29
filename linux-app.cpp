@@ -3,7 +3,6 @@
 #include <string>
 using namespace std;
 int main(int args, char** argv) {
-	system("color 4");
 	system("clear");
 	string password = "BachOctopussIuEmm", p; // khai bao password va user input
 	cout << "\033[1;31mEncrypted text with password" << endl; // App Info
