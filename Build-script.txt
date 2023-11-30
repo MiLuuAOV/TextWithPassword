@@ -1,0 +1,2 @@
+g++ linux-app.cpp -std=c++17 -o linux-app.exe
+g++ windows-app.cpp -std=c++17 -o windows-app.exe

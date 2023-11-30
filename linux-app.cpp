@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stdlib.h> 
 #include <string>
+#include "base64.hpp"
 using namespace std;
 int main(int args, char** argv) {
 	system("clear");
@@ -30,9 +31,10 @@ int main(int args, char** argv) {
 	}
 	if(p == password) {
 		system("clear");
-		string text = "Y8OzIGNodXnhu4duIGfDrCBjaOG7qSwgdMOibSBz4buxIGNobyDEkeG7oSBz4bqndSwgYuG6oW4gbOG6oW5oIGzDuW5nIHF1w6Ega2jDtG5nIHF1ZW4=";
+		string text = "Did you don't know, I love you so much";
+		string encrypted_text = base64::to_base64(text);
 		cout << "Nice, you're welcome! (https://base64.guru/converter/decode)" << endl;
-		cout << endl << text << endl << endl;
+		cout << endl << encrypted_text << endl << endl;
 		system("sleep 20");
 	}
 	return 0;
