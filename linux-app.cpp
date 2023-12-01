@@ -35,6 +35,7 @@ int main(int args, char** argv) {
 		string encrypted_text = base64::to_base64(text);
 		cout << "Nice, you're welcome! (https://base64.guru/converter/decode)" << endl;
 		cout << endl << encrypted_text << endl << endl;
+		
 		system("sleep 20");
 	}
 	return 0;
